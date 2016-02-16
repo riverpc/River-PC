@@ -1,0 +1,74 @@
+body{
+	background: #efc792; /*fondo de la pagina completa body*/
+	font-family: Arial; /*tipo de letra de toda la pagina bod*/
+	font-size: 16px; /*tamaño de letra de toda la pagina vody*/
+}
+
+header{
+	border: 1px solid red; /*caja header tiene un borde de 1px solido colo rojo*/
+	background: #98d1e3;
+	color: white; /*colo de la letra blanco*/
+	overflow: hidden; /*overflow permite que se recorte el contenido de una capa, para mostrar únicamente el contenido que quepa, según sus dimensiones.*/
+	padding: 1em; /*Establece la anchura de algunas o todas las zonas de relleno de los elementos*/
+}
+
+header h1{
+	font-size: 1.6em;
+	font-weight: normal;
+	margin: 0 0 0 0.5em; /*Establece la anchura de algunos o todos los márgenes de los elementos*/
+	float: left; /*Establece el tipo de posicionamiento flotante del elemento*/
+}
+
+header #logo img{
+	width: 125px; /*Ancho del logo*/
+	border-radius: 80px; /*Bordes*/
+	float: left;
+}
+
+nav{
+	background: #eaf0be; 
+	text-align: center; /*text alineado al centro*/
+	padding: 1em;
+}
+
+nav li{
+	display: inline; /*Establece el tipo de caja generada por un elemento*/
+	margin: 0 1em;
+}
+
+section{
+	font-size: 0;
+}
+
+.item {
+	width: 49%;
+	margin: 0.5%;
+	background: #b2dbbb;
+	display: inline-block;
+	overflow: hidden;
+	font-size: 1rem;
+}
+
+.figure_item{
+	float: left;
+}
+
+.title_item, .data_item{
+
+}
+
+.figure_item img{
+	width: 213px;
+}
+
+footer{
+	background: #bdb9a1;
+	border: 1px solid red;
+	text-align: center;
+	padding: 1em;
+}
+
+footer p{
+	margin: 0.5em 0;
+}
+
