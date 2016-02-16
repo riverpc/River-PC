@@ -4,6 +4,14 @@
 	<head>
 		<!-- Para las tildes los acentos,etc -->
 		<meta charset="UTF-8">
+		<!-- El Meta Viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- El CSS de Material Design con un color establecido , yo usaré el color Rosado Índigo -->
+		<link rel="stylesheet" href="material.indigo-pink.min.css">
+		<!-- El archivo JS de Material Design -->
+		<script src="material.min.js"></script>
+		<!-- Un tipo de Fuente desde Google Fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<!-- Titulo de la pagina: entre 60 a 70 caracteres -->
 		<title>Fundación Soma</title>
 		<link rel="stylesheet" type="text/css" href="css/estilos.css">
@@ -11,12 +19,44 @@
 	<!-- Contenido HTML -->
 	<body>
 		<!-- Cabecera -->
-		<header>
-			<h1>FUNDACION SOMA</h1>
+		<header class="header relative">
+			<div class="logo">
+				<div class = "wrap center-block">
+					<figure class="image isotipo left">
+						<img src="img/soma.png" alt=""/>
+					</figure>
+					<nav class="menu">
+						<ul class="list wrap center-block">
+							<li class="item">
+								<a href="#">Contáctenos</a>
+							</li>
+							<li class="item">
+								<a href="#">Nosotros</a>
+							</li>
+							<li class="item">
+								<a href="#">Servicios</a>
+							</li>
+							<li class="item">
+								<a href="#">Guía del paciente</a>
+							</li>
+							<li class="item">
+								<a href="#">Inicio</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<a class="button-menu icon-menu"></a>
+				
+			<div class="title">
+				<span>
+					Fundación Soma
+				</span>
+			</div>
 		</header>
 		
 		<!-- Contenido -->
-		<section>
+		<section class="container">
 		</section>
 
 		<!-- Pie de pagina -->

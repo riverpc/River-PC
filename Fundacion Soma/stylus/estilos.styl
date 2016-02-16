@@ -1,2 +1,90 @@
-h1
-	color green
+@import "normalize.styl"
+@import "fonts.styl"
+
+gris_oscuro = #333333
+gris_claro = #818181
+a
+	text-decoration none
+body
+	font-family 'varela Round', sans-serif
+	font-size 16px
+figure
+	margin 0
+//buttons
+ul
+	margin 0
+	padding 0
+.button-menu
+	color gris_oscuro
+	left .5em
+	margin-top -10px
+	position absolute
+	top 50%
+//oocss clases
+.container
+	padding 1.4rem
+	font-size 0
+	text-align center
+.menu
+	display none	
+.relative
+	position relative
+.header
+	height 5em
+	
+	.title
+		font-size 1.1em
+		text-align center
+		margin 0
+		line-height 3.5em
+.left
+	float left
+.rigth
+	float right
+.center-block
+	margin 0 auto
+.padding-tb
+	padding 1em 0
+.wrap
+	width 1000px
+.isotipo
+		width 0px
+	.image
+		img
+			width 115px	
+	.logo
+		padding 2em
+		overflow hidden
+		display none
+
+//para tablet
+//@media screen and (min-width:480px)
+	
+
+//para pc
+@media screen and (min-width:1000px)
+	.button-menu
+		display none
+	.menu
+		display block
+		overflow hidden
+		position relative
+		top 15px
+		.item
+			float right
+			list-style none
+			a
+				color gris_oscuro
+				text-transform uppercase
+				cursor pointer
+				padding 1em
+				display block
+				&:hover
+					color green
+					font-weight bold
+	.header
+		heigth auto
+		.title
+			display none
+	.logo
+		display block
